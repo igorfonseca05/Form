@@ -9,31 +9,22 @@
 </head>
 
 <body>
-    <form>
-        <fieldset class="fieldinputs">
-            <legend>Registration Form</legend>
-            <div class="inputduplo">
-                <div class="rightinput">
-                    <!-- <label for="insertName" class="inputNames">First Name</label><br> -->
-                    <input type="text" id="insertName" placeholder="First Name"><br>
-                </div>
-                <div class="leftinput">
-                    <!-- <label for="lastName" class="inputNames">Last Name</label><br> -->
-                    <input type="text" id="lastName" placeholder="Last Name"><br>
-                </div>
+    <form autocomplete = "off" >
+        <h1>Registration Form</h1>
+        <div class="inputduplo">
+            <div class="rightinput">
+                <input type="text" name ='Nome' id="insertname" placeholder="Nome">
             </div>
+            <div class="leftinput">
+                <input type="text" name ='Sobrenome' id="lastname" placeholder="Sobrenome">
+            </div>
+        </div>
 
-            <!-- <label for="insertemail" class="inputNames">Email</label><br> -->
-            <input type="text" id="insertemail" placeholder="Email"><br>
-            <!-- <label for="insertUserName" class="inputNames">UserName</label><br> -->
-            <input type="text" id="insertUserName" placeholder="UserName"><br>
-            <!-- <label for="Password" class="inputNames">Password</label><br> -->
-            <input type="text" id="Password" placeholder="Password"><br>
-            <!-- <label for="Password" class="inputNames" >Confirm Password</label><br> -->
-            <input type="text" id="Password" placeholder="Confirm Password"><br>
-            <button>Enviar</button>
-        </fieldset>
-
+        <input type="text" name='email' id="insertemail" placeholder="Email">
+        <input type="text" name="userName" id="insertuserName" placeholder="UserName">
+        <input type='password' name="password" id="password" placeholder="Password">
+        <input type='password'  id="confirmpassword" placeholder="Confirm Password">
+        <button>Enviar</button>
     </form>
     <div class="figura">
         <figure>
